@@ -1,0 +1,322 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: space-between ;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    top: 0;
+}
+.headerphai{
+    display: flex;
+    
+}
+.headerphai div{
+    padding: 12px 24px;
+}
+.headerphai div:hover,.list li:hover{
+    background: #ccc;
+    color: black;
+    cursor: pointer;
+}
+.headertrai{
+    padding: 12px 24px;
+}
+.headertrai:hover{
+    background:#f44336;
+    cursor: pointer;
+}
+.more{
+    position: relative;
+}
+.list {
+    position: absolute;
+    list-style: none;
+    left: 0;
+    top: 100%;
+    z-index: 1;
+    display: none;
+} 
+.more:hover .list{
+    background: white;
+    display: block  ;
+}
+.list li{
+    padding: 8px 16px;
+    width: 160px;
+}
+.anh img{
+    width: 100%;
+}
+.anh{
+    position: relative;
+    margin-top: 42px;
+}
+.newyork{
+    position: absolute;
+    bottom: 0;
+    color: white;
+    text-align: center;
+    width: 100%;
+    margin: 32px 0;
+}
+
+/* -------- hết-------- */
+p{
+    margin-bottom: 15px;
+}
+
+.content{
+    width: 1000px;
+    margin: auto;
+    padding: 64px 16px;
+}
+.content1{
+    text-align: center;
+}
+
+.img{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    padding: 32px 0;
+}
+.img2 img{
+    width: 60%;
+}
+
+h3{
+    margin: 10px 0;
+    height: 45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 4px;
+}
+.canletrai{
+    text-align: justify;
+}
+/* ---------hết-------- */
+
+.tourdate{
+    background: black;
+    height: 816px;
+    width: 100%;
+}
+.tourdate1{
+    color: white;
+    padding: 64px 16px;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+}
+.tourdate1 h2{
+    margin: 10px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.tourdate1 p{
+    margin: 15px 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+}
+.thang{
+    background: white;
+    color: black;
+    height: 118px;
+    text-align: left;
+}
+.thang li{
+    height: 33.5%;
+    border: 1px solid gray;
+    padding: 10px;
+}
+.thang span{
+    margin: 16px ;
+    width: 23px;
+    background: red;
+    color: white;
+    padding: 4px;
+}
+.november{
+    display: flex;
+    justify-content: space-between;
+}
+.so3{
+    background: black;
+    border-radius: 50%;
+    width: 30px;
+    color: white;
+    text-align: center;
+    margin-left: 10px;
+    height: 20px;
+    margin-right: 20px;
+}
+
+.newyork1,.paris,.sanfransico{
+    background: white;
+    color: black;
+    margin: 8px;
+    text-align: left;
+}
+.nd{
+    display: flex;
+    margin-top: 40px;
+}
+.nd img{
+    width: 100%;
+}
+.nd img:hover{
+    opacity: 0.6;
+}
+.ndnewyork,button{
+    margin: 15px;
+}
+.nd1 p{
+    margin: 15px;
+}
+.button{
+    height: 40px;
+    width: 90px;
+    background: black;
+    color: white;
+    border: none;
+}
+/* --------hết----- */
+.contact1{
+    height: 331px;
+    margin: auto;
+    width: 800px;
+}
+.contact2{
+    padding: 64px 16px;
+}
+.contact2 h2, p{
+    text-align: center;
+    margin-top: 15px;
+}
+.lienhe{
+    display: flex;
+    width: 100%;
+    margin-top: 32px;
+}
+.phone,.email{
+    width: 50%;
+}
+.email input{
+    height: 35px;
+}
+.masage input{
+    width: 90.7%;
+    margin-top: 10px;
+}
+.phone p{
+    text-align: left;
+}
+.email{
+    margin-top: 15px ;
+}
+
+/* ----------hết--------- */
+.map{
+    height: 500px;
+}
+.map img{
+    height: 500px;
+    width: 100%;
+}
+
+/* ------ hết--- */
+.footer1{
+    height: 200px;
+    padding: 64px 16px;
+    font-size: 24px;
+    color: gray;
+}
+.footer1 i{
+    text-align: center;
+}
+.footer1 a {
+    font-size: 24px;
+    color: gray;
+}
+.footer1 i:hover{
+    opacity: 0.5;
+}
+/* ---------------- */
+
+
+
+.modal-content{
+    width: 767px !important;
+    height: 390px !important;
+
+}
+.tickets h3{
+    width: 100%;
+    color: white;
+    background: rgb(0, 150, 136);
+    height: 87px;
+    padding: 32px 16px;
+    text-align: center;  
+}
+.modal-body{
+    padding: 0 !important;
+}
+.tickets1 p{
+    text-align: left;
+    margin: 0;
+}
+.tickets1 input{
+    width: 96%;
+    margin: 10px 16px;
+    height: 40px;
+}
+.button4 button{
+    width: 96%;
+    height: 40px;
+    margin: 10px 16px;
+    border: none;
+    text-transform: uppercase;
+    background: rgb(0, 150, 136);
+    color: white;
+}
+.close{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 16px;
+}
+.close button {
+    width: 15%;
+    height: 40px;
+    color: white;
+    background: rgb(251, 64, 64);
+    border: none;  
+}
+.button4 button:hover,.close button:hover{
+    background: #ccc;
+    color: black;
+}
+
+.close1{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    padding-top: 10px;
+}
+.tickets{
+    position: relative;
+}
+.close1:hover{
+    background: #ccc;
+}
+#modal-dialog{
+    margin-left: 25%;
+    transition: 0.5s;
+}

@@ -1,0 +1,388 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: name;
+    line-height: 1.5;
+  }
+  
+  @font-face {
+    font-family: name;
+    src: url(/assets/Montserrat/Montserrat-VariableFont_wght.ttf);
+  }
+  
+  .grid {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  
+  .container {
+    display: flex;
+  }
+  
+  .sidebar {
+    width: 250px;
+    background-color: white;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    overflow-y: auto;
+    z-index: 3;
+  }
+  
+  .menu__top {
+    padding: 16px;
+  }
+  
+  .menu__logo {
+    font-size: 1.5rem;
+    letter-spacing: 4px;
+    line-height: 1.5;
+    margin: 10px 0;
+  }
+  
+  .menu__body {
+    padding: 64px 0;
+  }
+  
+  .menu__list {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .menu__sublist {
+    padding: 12px 24px;
+    list-style: none;
+  }
+  
+  .menu__sublink {
+    text-decoration: none;
+    padding: 8px 16px;
+    color: #000;
+    opacity: 0.6;
+    width: 100%;
+    display: block;
+    font-weight: bolder;
+  }
+  
+  .menu__sublink i {
+    margin-right: 10px;
+  }
+  
+  .menu__link {
+    width: 100%;
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-weight: 700;
+    color: #000;
+    font-size: 1.2rem;
+    opacity: 0.6;
+    text-transform: capitalize;
+  }
+  
+  .menu__link:hover,
+  .menu__sublink:hover,
+  .menu__footer-link:hover {
+    color: #000;
+    opacity: 1;
+    background-color: rgb(193, 192, 192);
+  }
+  
+  .menu__footer-link {
+    text-decoration: none;
+    color: #000;
+    padding: 8px 16px;
+    display: block;
+    width: 100%;
+  }
+  
+  .active .menu__link {
+    opacity: 1;
+  }
+  
+  .content {
+    margin-left: 250px;
+    width: 950px;
+  }
+  
+  .nav {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 16px;
+  }
+  
+  .nav__left {
+    font-size: 1.5rem;
+    margin: 24px 0;
+  }
+  
+  .nav__right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav__cart {
+    font-size: 1.3rem;
+    cursor: pointer;
+    margin-right: 20px;
+  }
+  
+  .nav__search {
+    cursor: pointer;
+    font-size: 1.3rem;
+  }
+  
+  .slider {
+    padding: 0 16px;
+  }
+  
+  .slider__content {
+    position: relative;
+  }
+  
+  .slider__photo {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  .slider__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .slider__data {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 24px 48px;
+  }
+  
+  .slider__title {
+    color: #fff;
+    font-size: 64px;
+    font-weight: 400;
+    margin: 10px;
+    letter-spacing: 1px;
+  }
+  
+  .slider__subtitle {
+    font-size: 36px;
+    font-weight: 400;
+    color: #fff;
+    margin: 10px 0;
+  }
+  
+  .slider__btn {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    padding: 12px 24px;
+    margin: 10px 0;
+    transition: 0.3s;
+    text-transform: uppercase;
+    background-color: #000;
+  }
+  
+  .slider__btn:hover {
+    color: #000;
+    background-color: aliceblue;
+  }
+  
+  .products__heding {
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 15px 0;
+  }
+  
+  .products__photo {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .products__photo:hover.products__photo::after {
+    display: block;
+  }
+  .products__photo:hover .products__btn {
+    display: block;
+  }
+  .products__photo::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.451);
+  }
+  
+  .products__sale {
+    position: absolute;
+    top: 0%;
+    left: 0;
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #000;
+    color: #fff;
+    z-index: 1;
+  }
+  
+  .products__btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 0.9rem;
+    z-index: 1;
+    display: none;
+    background-color: red;
+    transform: translate(-50%, -50%);
+  }
+  
+  .products__img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+  }
+  
+  .products__data {
+    margin: 15px 0;
+  }
+  
+  .products__name {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  
+  .products__price {
+    font-weight: 700;
+  }
+  
+  .margin1 {
+    margin: 0 !important;
+  }
+  
+  .form__content {
+    padding: 32px 16px;
+    background-color: #000;
+  }
+  
+  .form__title {
+    color: #fff;
+    margin: 10px 0;
+    font-size: 36px;
+  }
+  
+  .form__group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form__group-name {
+    color: #fff;
+    margin: 15px 0;
+  }
+  
+  .form__input {
+    margin: 15px 0;
+    height: 40px;
+    outline: none;
+    background-color: #fff;
+    border: none;
+    padding: 0 10px;
+  }
+  
+  .form__btn {
+    display: inline-block;
+    background-color: red;
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 8px 16px;
+  }
+  
+  .footer {
+    padding: 64px 0;
+    background-color: rgb(198, 198, 198);
+  }
+  
+  .footer__title {
+    text-align: center;
+  }
+  .footer__subtitle {
+    text-align: center;
+  }
+  
+  .footer__list,
+  .footer__right {
+    text-align: center;
+    list-style: none;
+    color: #000;
+    padding-left: 0;
+  }
+  
+  .footer__title {
+    text-align: center;
+  }
+  
+  .footer__list > li > a {
+    color: #000;
+    display: block;
+    margin-bottom: 20px;
+  }
+  
+  .footer__right {
+    text-align: unset;
+  }
+  
+  .footer__right > li > a {
+    text-decoration: none;
+    color: #000;
+    display: block;
+    padding-bottom: 10px;
+  }
+  
+  .footer__society {
+    font-size: 1.3rem;
+  }
+  
+  /* >= Tablet */
+  @media (max-width: 768px) {
+    .content {
+      margin-left: 0;
+    }
+    .sidebar {
+      display: none;
+    }
+  }
+  
+  @media (min-width: 740px) and (max-width: 1023px) {
+    .content {
+      margin-left: 0;
+    }
+    .sidebar {
+      display: none;
+    }
+  }
+  
+  @media (min-width: 1113px) {
+    .content {
+      margin-left: 250px;
+    }
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  

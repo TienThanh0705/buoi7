@@ -1,0 +1,117 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+}
+/* .container{
+    background-color: white;
+    padding: 32px;
+    margin: 0 193.6px;
+    
+
+}
+.come{
+    color: black;
+    font-size: 36px;
+    margin: 10px 0;
+    text-align: center;
+
+}
+.really{
+    color: black;
+    font-size: 15px;
+    margin: 15px 0;
+    text-align: center;
+}
+.name{
+    width: 100%;
+    padding: 8px;
+    text-align: center;
+
+}
+.since{
+    font-size: 15px;
+    font-weight:italic;
+   text-align: center;
+
+}
+.go{
+ background-color: green;
+ font-size: 15px;
+ color: white;
+ padding: 8px 16px; 
+  width: 50%;
+ 
+margin: 0 auto;
+}
+.come-1{
+    background-color: red;
+    font-size: 15px;
+    color: white;
+    padding: 8px 16px; 
+     width: 50%;
+  
+}
+.but{
+ 
+    display: flex;
+    justify-content: space-evenly;
+}
+.go:hover{
+    background-color: aliceblue;
+    color: black;
+}
+.come-1:hover{
+    background-color: aliceblue;
+    color: black;
+} */
+/* ///////////////////////////////////////////////////////////////// */
+.modal-content h3{
+    /* font-size: 40px; */
+}
+.modal-dialog{
+    width: 600px;
+    height: 300px;
+    margin-top: 120px !important;
+}
+.modal-content{
+    height: 100%;
+    padding: 32px;
+    text-align: center ;
+}
+.modal-content{
+    margin: 10px 0;
+}
+.modal-content p{
+    margin: 15px 0;
+}
+.modal-content input{
+    height: 50px;
+}
+.going{
+    display: flex;
+
+}
+.going button{
+    width: 50%;
+    border: none;
+    height: 50px;
+    color: white;
+}
+.going1{
+    background: rgb(14, 199, 14);
+}
+.cantcome{
+    background: rgb(255, 52, 52);
+}
+#modal-dialog{
+    max-width: none;
+    height: 350px;
+    width: 700px !important;
+
+}
+.going1:hover,.cantcome:hover{
+    background: #ccc;
+    color: black;
+}

@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.content-left{
+    height: auto;
+}
+
+    body{
+        display: flex;
+        margin: 0 13px;
+        background-color: red;
+    }
+
+
+.logo{
+    width: 100%;
+    height: 72px;
+    padding: 16px;
+    font-size: 30px;
+    position: sticky;
+    top: 0;
+}
+.logo h3{
+    margin: 10px 0;
+    font-weight: 400;
+}
+.menu{
+    padding: 64px 0;
+    color: gray;
+    font-size: 20px;
+}
+
+.menu p{
+    padding: 8px 16px;
+    margin-bottom: 0;
+   
+}
+.menucap3{
+    color:black;
+    width: 250px;
+}
+.menucap3 ul{
+    list-style: none;
+}
+/* .menucap3 .jean{
+    
+    height: 60px;
+}
+
+.menucap3 .jean:hover{
+    background-color: #ccc;
+    
+} */
+
+.contact a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    flex-direction: column;
+    display: flex;
+    padding: 8px 16px;
+}
+.contact a:hover{
+    background-color:antiquewhite;
+}
+.menu p:hover{
+    background: #ccc;
+    color: black;
+    cursor: pointer;
+}
+.menucap3 p{
+    width: 100%;
+}
+
+.card1 li{
+    margin: 10px 0;
+    font-size: 17px;
+    height: 40px;
+    padding: 8px 15px;
+}
+.card1 li:hover{
+    background: rgb(193, 192, 192);
+}
+.skinny{
+    background: rgb(230, 230, 230);
+}
+.skinny i{
+    width: 15px;
+}
+/* --------- hết menu-------- */
+.jeans{
+    width: 80%;
+    font-size: 30px;
+}
+.jeans1{
+    display: flex;
+    justify-content: space-between;
+    height: 72px;
+    padding: 16px;
+    margin: 10px 0;
+}
+.img1 img{
+    width: 100%;
+    height: 100%;
+}
+.img1{
+    position: relative;
+    padding: 0 16px;
+    height: 619px;
+}
+.new{
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    color: white;
+    line-height: 1.5;
+}
+.new h3{
+    font-size: 64px;
+    margin: 10px 0;
+}
+.shopnow{
+    width: 150px;
+    height: 50px;
+    margin: 15px 0;
+    border: none;
+    color: white;
+    background: black;
+    font-size: 20px;
+}
+.shopnow:hover{
+    background: gray;
+    color: black;
+    cursor: pointer;
+}
+
+/* ----------hết jeans------------- */
+
+.item{
+    padding: 0 16px;
+    margin: 15px 0;
+    color: gray;
+    font-size: 20px;
+}
+/* ------------------- hết -------- */
+
+.khoisp1,.khoisp2{
+    display: flex;
+    filter: grayscale(50%);
+}
+.anh img{
+    width: 100%;
+}
+.ripped{
+    margin: 0 16px;
+}
+.ripped p{
+    font-size: 18px;
+    margin: 15px 0;
+}
+/* //////////////////////////////////////////////// */
+.container-sub{
+    background-color: black;
+    height: auto;
+    padding: 32px 16px;
+    color: white;
+}
+.sub{
+    font-size: 36px;
+    margin: 10px 0;
+
+}
+.vip{
+    font-size:15px ;
+    margin: 15px 0;
+}
+.nhap{
+    padding: 8px;
+    width: 100%;
+}
+.scribe{
+    background-color: red;
+    /* margin: 0px 0px 16px; */
+    color: white;
+    padding: 8px 16px;
+    font-size: 15px;
+    margin: 16px 0;
+}
+.scribe:hover{
+    background-color: #ccc;
+}
+/* //////////////////////address////////////////////////////// */
+
+.address{
+    display: flex;
+    justify-content: space-around;
+    background-color: antiquewhite;
+    padding: 64px 0;
+    width: calc(100/3);
+    text-align: center;
+}
+.cont{
+    font-size: 20px;
+    /* margin: 10px 0; */
+    color: black;
+}
+.ques{
+    font-size: 12px;
+    margin: 12px 0;
+}
+.name, .email, .subject, .message, .button-send{
+    padding:  8px ;
+    
+}
+.send{
+    width: 100%;
+    background-color: red;
+}
+
+
+ .about-tong{
+   
+   list-style: none;
+   margin:16px;
+   justify-content: center;
+   padding:  20px 0 ;
+}
+.footer{
+    background-color: black;
+  height: 100px;
+}
+.power{
+    color: white;
+    text-align: center;
+    line-height: 100px;
+}

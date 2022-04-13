@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald';
+  }
+  .header-icon{
+    padding: 8px 16px;
+  }
+  .menu{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background: black;
+  }
+  .header-icon:hover{
+    background: #ccc;
+    color: black;
+    cursor: pointer;
+  }
+  .heading{
+    text-align: center;
+    padding: 48px 16px;
+  }
+  .backText{
+    background: black;
+    color: white;
+    padding: 0 8px;
+  }
+  .heading h1{
+    font-size: 48px;
+    margin: 10px 0;
+  }
+  .banner img{
+    width: 100%;
+    display: block;
+  }
+  .banner{
+    position: relative;
+  }
+  .bannerText{
+    color: white;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+    padding: 12px 24px;
+  }
+  .bannerText h1{
+    font-size: 64px;
+    margin: 10px 0;
+  }
+  .bannerText p{
+    font-size: 36px;
+    margin: 10px 0;
+  }
+  .bannerText button{
+    padding: 12px 24px;
+    font-size: 18px;
+    border: none;
+    opacity: 0.60;
+    margin: 10px 0;
+  }
+  .bannerText button:hover{
+    opacity: 1;
+    cursor: pointer;
+  }
+  .content-left{
+    width: 66%;
+  }
+  .content{
+    display: flex;
+    background: #ccc;
+  }
+  .post-heading{
+    text-align: center;
+  }
+  .post-heading span{
+    opacity: 0.6;
+    margin: 10px 0;
+  }
+  .post-heading h1{
+    margin: 10px 0;
+    font-size: 24px;
+  }
+  .content-right{
+    width: 33%;
+  }
+  .post-img{
+    display: flex;
+    justify-content: center;
+  }
+  .post-img img{
+    padding: 16px 0;
+    width: 100%;
+  }
+  .post-content{
+    text-align: justify;
+  }
+  .post-content span{
+    font-weight: bold;
+  }
+  .post hr{
+    margin: 20px 0;
+  }
+  .post{
+    background: white;
+    padding: 12px 24px;
+    margin: 16px ;
+  }
+  .post-content p{
+    margin: 15px 0;
+  }
+  .post-action{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+  }
+  .like{
+    margin: 15px 0;
+    background: white;
+    color: black;
+    padding: 8px 16px;
+    border: 1px solid #ccc
+  }
+  .like:hover{
+    cursor: pointer;
+    background: #ccc;
+  }
+  .reply{
+    margin: 15px 0;
+    background: black;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+  }
+  .reply:hover{
+    background: #ccc;
+    color: black;
+  }
+  .reply span{
+    padding: 0 8px;
+    background: white;
+    color: black;
+  }
+  .comment-left{
+    width: 17%;
+  }
+  .comment-left img{
+    width: 100%;
+  }
+  .comment-right{
+    width: 83%;
+    padding: 0 12px;
+  }
+  .post-comment{
+    display: flex;
+  }
+  .comment-right h2{
+    margin: 10px 0;
+    font-size: 20px;
+  }
+  .comment-right p{
+    margin: 15px 0;
+  }
+  .comment-right span{
+    font-size: 15px ;
+    opacity: 0.6;
+  }
+  .collapse {
+    display: flex;
+  }
+  @font-face {
+    font-family: 'Oswald';
+    src: url(./Oswald/Oswald-VariableFont_wght.ttf);
+  }
+  .sub-content{
+    margin: 0 5px;
+}
+.sub{
+    background-color: red;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+.enter{
+    width: 100%;
+}
+.modal-title{
+  
+    font-size: 30px;
+}
+.btn-close{
+    background-color: #ccc;
+}
+.sub:hover{
+    background-color: blue;
+}
+.modal-content{
+    margin: 0 43.6px;
+    padding: 32px;
+}
+.modal-dialog{
+    padding-top: 100px;
+}

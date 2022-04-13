@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    opacity: 0.8;
+}
+.left{
+    width: 24%;
+    background: rgb(236, 3, 3);
+    color: white;
+  
+    padding: 8px 16px;
+    position: sticky;
+    top: 0;
+}
+.company{
+    padding: 0 16px;
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: 35px;
+    position: fixed;
+}
+.left h3{
+    padding: 64px 0;
+    margin: 10px 0;
+}
+.company p{
+    margin: 15px 0;
+    font-weight: bold;
+
+}
+.company a{
+    text-decoration: none;
+    color: white;
+}
+.interior h1{
+    font-size: 60px;
+}
+.interior hr{
+    
+    width: 100px;
+    border: 10px solid red;
+    border-radius: 5px;
+}
+/* -------------- hết khối left----------- */
+
+.right{
+    margin: 0 40px;
+    width: 76%;
+}
+.interior{
+    margin-top: 85px;
+    
+    padding-left: 8px;
+}
+.interior h1{
+    margin: 10px 0;
+}
+.interior h2{
+    color: red;
+    margin: 10px 0;
+    font-size: 36px;
+
+}
+
+
+/* ----------- hết interior------ */
+
+.khoi1{
+    display: flex;
+
+}
+.khoi1 img{
+    width: 100%;
+    padding: 0px 8px;
+}
+.service h2{
+    margin: 36px 0;
+    font-size: 36px;
+    color: red;
+}
+.service hr{
+    width: 100px;
+    border: 10px solid red;
+    border-radius: 5px;
+}
+.service p{
+    font-size: 16px;
+}
+/* //////////////////////////////////////////////////////////////// */
+.design h2{
+    margin: 36px 0;
+    font-size: 36px;
+    color: red;
+}
+.design hr{
+    width: 100px;
+    border: 10px solid red;
+    border-radius: 5px;
+}
+.design p{
+    font-size: 16px;
+}
+/* /////////////////////////////////////////////////////////////////// */
+.aboutimg{
+    display: flex;
+    width: 100%;
+}
+.imgtext{
+    width: 25%;
+    padding: 0 8px;
+    margin-bottom: 16px;
+}
+.imgtext img{
+    width: 100%;
+    filter: grayscale(70%);
+
+}
+.imgtext2 h3{
+    margin: 10px 0;
+}
+.imgtext2 p{
+    margin: 15px 0;
+}
+.imgtext2 button{
+    width: 100%;
+    height: 40px;
+    border: none;
+    font-weight: bold;
+}
+.imgtext2 button:hover{
+    background: rgb(171, 171, 171);
+}
+/* /////////////////////////////////////////////////////////////// */
+
+.container-pack{
+    display: flex;
+    padding: 0 8px;
+    margin-bottom: 16px;
+   
+    float: left;
+    justify-content: space-evenly;
+    
+}
+
+.basic-1{
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 600px;
+    
+}
+.basic-2{
+    text-align: center;
+}
+.basic-2 button{
+    width: 100px;
+    height: 40px;
+    background-color: white;
+}
+.basic-2 button:hover{
+    background-color: black;
+    color: white;
+}
+.pro-1{
+    background-color: red;
+    color: white;
+    text-align: center;
+    width: 600px;
+    margin: 0 28px;
+}
+.pro-2{
+    
+    margin: 0 28px;
+    text-align: center;
+}
+.pro-2 button{
+    width: 100px;
+    height: 40px;
+    background-color: red;
+}
+.pro-2 button:hover{
+    background-color: black;
+    color: white;
+}
+
+
+/* .khoi2{
+
+    display: flex;
+
+}
+.khoi2 img{
+    width: 100%;
+    padding: 0px 8px;
+    
+}
+.khoi3{
+    display: flex;
+
+}
+.khoi3 img{
+    width: 100%;
+    padding: 0px 8px;
+} */

@@ -1,0 +1,184 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    top: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* ------------ */
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 16px;
+    background: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    padding: 8px 16px;
+    display: inline-block;
+    width: 140px;
+    letter-spacing: 5px;
+    text-align: center;
+}
+.menuleft a{
+    width: 210px;
+}
+.menu a:hover{
+    background: #ccc;
+}
+/* ----  hết menu------ */
+.br img{
+    width: 100%;
+}
+.br{
+    position: relative;
+}
+.br1{
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    font-size: 40px;
+    color: white;
+}
+.br1 span{
+    background: black;
+    display: inline-block;
+    width: 80px;
+    height: 70px;
+    text-align: center;
+    padding-top: 10px;
+    opacity: 70%;
+    font-weight: bold;
+}
+/* ------- hết br ------ */
+.project{
+    padding: 8px 16px;
+}
+.project1{
+    padding: 32px 16px;
+}
+.project1 h3{
+    margin: 10px 0;
+    padding: 16px 0 ;
+    border-bottom: 1px solid rgb(223, 222, 222);
+    font-weight: 400;
+}
+.projectimg{
+    display: flex;
+    width: 100%;
+    padding: 0 8px;
+}
+.projectimg img{
+    width: 25%;
+    padding: 0 8px;
+    margin-bottom: 16px;
+}
+.anh1 img{
+    width: 100%;
+}
+.anh1{
+    position: relative;
+}
+.textproject{
+    position: absolute;
+    top: 0;
+    left: 8px;
+    color: white;
+    background: black;
+    height: 40px;
+    padding: 9px;
+}
+
+/* --------------- hết project -------- */
+
+.about{
+    padding: 8px 16px;
+}
+.about1{
+    padding: 32px 16px;
+}
+.about1 h3{
+    margin: 10px 0;
+    padding: 16px 0 ;
+    border-bottom: 1px solid rgb(223, 222, 222);
+    font-weight: 400;
+}
+.aboutimg{
+    display: flex;
+    width: 100%;
+}
+.imgtext{
+    width: 25%;
+    padding: 0 8px;
+    margin-bottom: 16px;
+}
+.imgtext img{
+    width: 100%;
+    filter: grayscale(70%);
+
+}
+.imgtext2 h3{
+    margin: 10px 0;
+}
+.imgtext2 p{
+    margin: 15px 0;
+}
+.imgtext2 button{
+    width: 100%;
+    height: 40px;
+    border: none;
+    font-weight: bold;
+}
+.imgtext2 button:hover{
+    background: rgb(171, 171, 171);
+}
+
+/* ---------- hết about ------- */
+
+.contact2 input{
+    width: 100%;
+    height: 40px;
+    margin: 16px 0;
+}
+.contact2 button{
+    width: 200px;
+    height: 40px;
+    border: none;
+    color: white;
+    background: black;
+    margin: 16px 0;
+}
+.contact2 button:hover{
+    background: rgb(196, 196, 196);
+    color: black;
+}
+/* ------------- hết contact----------  */
+
+.footer {
+    padding: 10px 32px;
+}
+.footer img{
+    width: 100%;
+}
+
+/* ------ hết footer ---------- */
+
+.powered {
+    background: black;
+    color: white;
+    height: 50px;
+    text-align: center;
+    padding-top: 15px;
+}
+.powered a{
+    color: white;
+}
+.powered a:hover{
+    color: green;
+}
